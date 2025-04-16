@@ -1,0 +1,100 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #264A76;
+}
+
+.caudex-regular{
+    font-family: "Caudex", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+p{
+    font-size: 1rem;
+}
+
+.Main-beach-pic{
+    height: 100vh;
+    width: 100%;
+    background-image: url(./Documento\ A4\ Horizontal\ Registro\ de\ Hábitos\ Minimalista\ Imprimible\ Negro\ Gris\ \(29.7\ x\ 21\ cm\)\ -\ 10.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    color: white;
+    position: relative;
+    text-align: center;
+}
+
+h1{
+    font-family: Caudex;
+    display: flex;
+    text-align: center;
+}
+
+.Nav-Links{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background-color: transparent;
+}
+
+.Nav-Links h1{
+    font-size: 2.5rem;
+}
+
+.Nav-Links ul{
+    list-style: none;
+    display: flex;
+    gap: 40px;
+    margin-left: 60px;
+}
+
+.Nav-Links a{
+    color: white;
+    text-decoration: none;
+    font-family: Helvetica;
+}
+
+.Reserva-Ahora{
+    display: flex;
+    margin-left: 100px;
+}
+
+.Main-content{
+margin: 195px;
+}
+
+.Main-content button{
+    background-color: transparent ;
+    color: rgb(255, 255, 255);
+    padding: 10px 15px;
+    border-radius: 8px;
+    border-color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+
+
+
+
+
+
+.navigation-bar{
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 100px;
+    border-bottom: 1px solid black;
+}
+
+.Nav-Links{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+header a:not(:last-child){
+    margin-right: 50px;
+}
