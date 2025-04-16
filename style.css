@@ -81,20 +81,6 @@ margin: 195px;
 
 
 
-.navigation-bar{
-    height: 80px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0px 100px;
-    border-bottom: 1px solid black;
-}
 
-.Nav-Links{
-    display: flex;
-    justify-content: center;
-    list-style: none;
-}
-header a:not(:last-child){
-    margin-right: 50px;
-}
+
+
